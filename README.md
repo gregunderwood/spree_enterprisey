@@ -11,7 +11,7 @@ Themes in Spree are typically implemented as [Spree extensions](http://guides.sp
 Once you have a rails application running Spree, it's a simple three step process to install the spree_enterprisey extension.  First, add the gem to your `Gemfile`:
 
 ```
-gem 'spree_fancy', :git => 'git://github.com/gregunderwood/spree_enterprisey.git'
+gem 'spree_enterprisey', :git => 'git://github.com/gregunderwood/spree_enterprisey.git'
 ```
 
 Then install the gem via Bundler:
@@ -36,6 +36,6 @@ Be sure to bundle your dependencies and then create a dummy test app for the spe
     $ bundle exec rake test_app
     $ bundle exec rspec spec
 
-Spree Enterprisey Copyright (c) 2013 Spree Commerce Inc., released under the New BSD License
+Spree Enterprisey Copyright (c) 2013 Greg Underwood, released under the New BSD License
 
 Spree Fancy Copyright (c) 2012-2013 Spree Commerce Inc., released under the New BSD License
