@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_enterprisey'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.summary     = 'Enterprisey Spree Theme'
   s.description = 'Theme based on Spree Fancy theme as a starting point.'
   s.required_ruby_version = '>= 1.8.7'
@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'spree_core', '~> 2.0.0.beta'
   s.add_dependency 'compass-rails'
+  s.add_dependency 'font-awesome-rails'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'

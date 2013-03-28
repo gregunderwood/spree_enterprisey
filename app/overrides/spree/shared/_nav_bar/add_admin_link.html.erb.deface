@@ -1,6 +1,6 @@
 <!-- insert_top '#nav-bar' -->
 <% if not current_user.nil? and current_user.spree_roles.any? { |r| r.name == "admin" } %>
   <li id="admin-link" >
-    <%= link_to content_tag(:i, '', :class => 'icon-admin'), spree.admin_path, :title => "Administration" %>
+    <%= link_to content_tag(:i, '', :class => 'icon-cog'), spree.admin_path, :title => t(:administration) %>
   </li>
 <% end %>
