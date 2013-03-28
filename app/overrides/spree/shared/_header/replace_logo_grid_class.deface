@@ -1,2 +1,2 @@
 set_attributes '#logo'
-attributes :class => 'columns four'
+attributes :class => 'columns three'
