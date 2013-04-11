@@ -44,7 +44,7 @@
         background-color: lighten($c_blue, 10);
         border-bottom: 1px solid $c_blue;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 400;
 
         &:hover {
           background-color: $c_green;
@@ -135,7 +135,7 @@ nav #main-nav-bar, nav#top-nav-bar {
 
   li {
     a {
-      font-weight: 600 !important;
+      font-weight: 400 !important;
 
       &:hover, &.active {
         color: $c_green !important;

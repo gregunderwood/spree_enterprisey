@@ -1,15 +1,6 @@
-<% content_for :subheader do %>
-  <%= render 'slider' %>
-<% end %>
 
-<div id="welcome-message">
-  <div class="container">
-    <h1>
-      Welcome to our amazing store!
-      <br>
-      Choose <a href="/products">anything</a> you wish, we’ll ship it <a href="/products">anywhere!</a>
-    </h1>
-  </div>
+<div id="logo_container">
+    <%= image_tag "store/logo.png", :id => "logo" %>
 </div>
 
 <div class="container">
@@ -24,16 +15,6 @@
       </ul>
     </div>
   <% end %>
-
-  <% if @latest_products %>
-    <div id="latest-products" class="row">
-      <h3>Latest Products</h3>
-      <hr>
-      <ul class="carousel">
-        <% @latest_products.each do |product| %>
-          <%= render 'product', :product => product %>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
 </div>
+
+<%= render 'slider' %>
