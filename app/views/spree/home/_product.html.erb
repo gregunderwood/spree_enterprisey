@@ -1,4 +1,4 @@
-<% if product.on_display? %>
+<% if product %>
   <li id="product_<%= product.id %>" class="columns four" data-hook="featured_products_list_item">
     <div class="product-image">
       <%= link_to product_image(product), product %>
